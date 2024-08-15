@@ -78,7 +78,7 @@ Example structure:
 
 ## Customization
 
-To add more questions, edit the `questions.json` file, following the existing structure for each question.
+To add more questions, edit the `questions.json` file, following the existing structure for each question. Ypu can also copy paste new questions from the questions repo.json and feel free to add more to the the questions repo.
 
 ## Algorithm Details
 

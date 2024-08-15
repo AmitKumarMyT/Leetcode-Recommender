@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LeetCode Recommender</h1>
+        <div id="question-container">
+            <h2 id="question-title"></h2>
+            <p id="question-difficulty"></p>
+            <a id="question-link" target="_blank">Solve on LeetCode</a>
+        </div>
+        <input type="number" id="solving-time" placeholder="Solving time (minutes)">
+        <button id="next-question">Next Question</button>
+        <div id="stats-container">
+            <h3>Your Stats</h3>
+            <p>Easy: <span id="easy-count">0</span></p>
+            <p>Medium: <span id="medium-count">0</span></p>
+            <p>Hard: <span id="hard-count">0</span></p>
+        </div>
+        <div id="preferences-container">
+            <h3>Difficulty Preferences</h3>
+            <label>
+                Easy: <span id="easy-preference-value">33%</span>
+                <input type="range" id="easy-preference" min="0" max="100" value="33">
+            </label>
+            <label>
+                Medium: <span id="medium-preference-value">33%</span>
+                <input type="range" id="medium-preference" min="0" max="100" value="33">
+            </label>
+            <label>
+                Hard: <span id="hard-preference-value">34%</span>
+                <input type="range" id="hard-preference" min="0" max="100" value="34">
+            </label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
